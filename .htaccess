@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://publicidadzens.com/index.php
+ Options -Indexes

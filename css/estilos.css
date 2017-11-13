@@ -1,0 +1,359 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------------------------menu-------------------------*/
+
+/*#container {
+  z-index: 100;
+}*/
+.logo{
+  width: 20%;
+  margin-right: 3%;
+  padding: 1% 0%;
+}
+
+.navT {
+  -webkit-transition: all 0.25s;
+  z-index: 111;
+  cursor: pointer;
+  width: 100%;
+  background: #999999;
+  height: 85px;
+  left: 0;
+  top: 0;
+  position: fixed;
+  /*padding: 2% 0%;*/
+}
+.navT .icon {
+  -webkit-transition: all 0.25s;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  left: 15px;
+  top: 30px;
+  background-color: #fff;
+}
+.navT .icon:before, .navT .icon:after {
+  -webkit-transition: all 0.25s;
+  width: 30px;
+  height: 1px;
+  left: 0;
+  background: white;
+  position: absolute;
+  content: '';
+}
+.navT .icon:before {
+  top: -10px;
+}
+.navT .icon:after {
+  top: 10px;
+}
+.navT:hover {
+  background: black;
+}
+.navT:hover .icon:before {
+  top: -12px;
+}
+.navT:hover .icon:after {
+  top: 12px;
+}
+.navT.active .icon {
+  -webkit-transform: rotate(180deg);
+  background-color: transparent;
+  left: 10px;
+}
+.navT.active .icon:before, .navT.active .icon:after {
+  top: 0;
+}
+.navT.active .icon:before {
+  -webkit-transform: rotate(45deg);
+}
+.navT.active .icon:after {
+  -webkit-transform: rotate(-45deg);
+}
+
+#menu {
+  z-index: 111;
+  -webkit-transition: all 0.5s;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 65px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid transparent;
+  overflow: hidden;
+}
+#menu ul {
+  list-style: none;
+  padding: 0;
+  letter-spacing: 0.4em;
+}
+#menu li:first-child {
+  margin-top: 0;
+}
+#menu li {
+  -webkit-transition: all 0.2s;
+  margin-top: 20px;
+  padding: 5px 0;
+  color: white;
+}
+#menu a {
+  padding: 8px;
+  -webkit-transition: all 0.25s;
+  cursor: pointer;
+  color: #F4A517;
+}
+#menu a:hover {
+  letter-spacing: 0.5em;
+  text-decoration: underline;
+  color: #fff;
+}
+#menu.open {
+  height: 270px;
+  width: 100%;
+  background: #72103D;
+  border-bottom: 1px solid black;
+}
+/*-------------------------------------------------------fin menu-------------------------*/
+
+
+
+.banneri{
+  width: 100%;
+   height: 635px;
+    background: url('../img/banneri.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.fondo{
+  background-color: rgba(0,0,0,.7);
+  overflow: hidden;
+  height: 635px;
+}
+
+.tit{
+  color: #fff;
+  border-left: 1px #fff solid;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1%;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+.subtit{
+  color: #fff;
+  /*border-left: 1px #fff solid;*/
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1%;
+  text-align: center;
+}
+.linea{
+  width: 100%;
+  height: 100px;
+  background-color: #72103D;
+}
+.puntos{
+  color: #fff;
+  float: left;
+  padding: 0px 7%;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3.5%;
+}
+.texto{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.tit2{
+  color: #fff;
+  border-left: 1px #fff solid;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1%;
+  width: 100%;
+  margin: 0 auto;
+  /*margin-top: 15%;*/
+}
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+    background:#999999;
+    font-family: 'Oswald', sans-serif;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+
+}
+footer p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    color: #000;
+}
+/*--------------ir arriba-----------*/
+
+.ir-arriba {
+  display:none;
+  padding:20px;
+  background:#F28C00;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+/*------------------nosotros----------*/
+.bannern{
+  width: 100%;
+   height: 635px;
+    background: url('../img/bannern.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.titn{
+  color: #fff;
+  border-left: 1px #fff solid;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1%;
+  width: 42%;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+.iconosf{
+  /*border: 2px red solid;*/
+  text-align: center;
+}
+.iconosf img{
+  margin: 0 auto;
+}
+/*-------------------servicios---------------*/
+.tits{
+  color: #fff;
+  border-left: 1px #fff solid;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1%;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+.banners{
+  width: 100%;
+   height: 635px;
+    background: url('../img/banners.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.uno{
+  width: 100%;
+   height: 300px;
+    background: url('../img/merca.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.dos{
+  width: 100%;
+   height: 300px;
+    background: url('../img/diseno.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.tres{
+  width: 100%;
+   height: 300px;
+    background: url('../img/publicidad.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.cuatro{
+  width: 100%;
+   height: 300px;
+    background: url('../img/radio.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.cinco{
+  width: 100%;
+   height: 300px;
+    background: url('../img/redes.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.seis{
+  width: 100%;
+   height: 300px;
+    background: url('../img/retail.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+/*-----------------contacto-----------------*/
+
+.bannerc{
+  width: 100%;
+   height: 635px;
+    background: url('../img/bannerc.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.titc{
+  color: #fff;
+  border-left: 1px #fff solid;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1%;
+  width: 24%;
+  margin: 0 auto;
+  margin-top: 15%;
+}

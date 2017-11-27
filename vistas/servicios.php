@@ -30,43 +30,43 @@
   </div>
 </div>
 <div class="linea">
-  <div style="width: 100%; text-align:center;">
-    <p class="puntos">Nos preocupamos por su presupuesto por eso ofrecemos servicios de alto impacto a bajo costo</p>
+  <div class="txt-linea" style="width: 100%; text-align:center;">
+    <p class="puntos txt-lin">Nos preocupamos por su presupuesto por eso ofrecemos servicios de alto impacto a bajo costo</p>
   </div>
 </div>
 
 <div class="section" style="padding: 5% 0px;">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row btn-b">
+          <div class="col-sm-4 col-md-4">
             <figure class="uno">
               
             </figure>
-            <h2 class="text-center">MERCADOTECNIA</h2>
-            <p class=" texto">
+            <h2 class="text-center tit-mdppdr">MERCADOTECNIA</h2>
+            <p class=" texto i-mdppdr">
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Estudios de mercado <br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> SEM y SEO<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Análisis de la competencia<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Mistery shopper</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="dos">
               
             </figure>
-            <h2 class="text-center">DISEÑO</h2>
-            <p class=" texto">
+            <h2 class="text-center tit-mdppdr">DISEÑO</h2>
+            <p class=" texto i-mdppdr">
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Imagen corporativa<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Ilustración<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Cartel<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Señalización<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Diseño de empaque</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="tres">
               
             </figure>
-            <h2 class="text-center">PUBLICIDAD</h2>
-            <p class=" texto">
+            <h2 class="text-center tit-mdppdr">PUBLICIDAD</h2>
+            <p class=" texto i-mdppdr">
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Móvil<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Espectaculares<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Displays y Exhibidores<br>
@@ -75,34 +75,34 @@
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="cuatro">
               
             </figure>
-            <h2 class="text-center">PRODUCCION</h2>
-            <p class=" texto">
+            <h2 class="text-center tit-mdppdr">PRODUCCION</h2>
+            <p class=" texto i-mdppdr">
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Spots de radio y TV<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Videos institucionales<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Jingles<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Fotografía</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="cinco">
               
             </figure>
-            <h2 class="text-center">DIGITAL</h2>
-            <p class=" texto">
+            <h2 class="text-center tit-mdppdr">DIGITAL</h2>
+            <p class=" texto i-mdppdr">
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Redes sociales<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Páginas web<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> APPS<br>
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Software</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="seis">
               
             </figure>
-            <h2 class="text-center">RETAIL</h2>
-            <p class=" texto">
+            <h2 class="text-center tit-mdppdr">RETAIL</h2>
+            <p class=" texto i-mdppdr">
               <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Espacios comerciales <br>
                <i style="color: #72103D" class="fa fa-star-half-o" aria-hidden="true"></i> Interiores residenciales</p>
           </div>

@@ -2,11 +2,11 @@
 <body>
 
   <div id="container">
-  <div class="navT ">
+  <div class="navT">
     <div class="icon pull-left"></div>
-  <div class="logo pull-right">
-    <img src="img/zens.png" alt="ZENS" class="img-responsive">
-  </div>
+    <div class="logo pull-right">
+      <img src="img/zens.png" alt="ZENS" class="img-responsive img-tit">
+    </div>
   </div>
   
   <div id="menu">
@@ -40,39 +40,39 @@
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1 style="color: #F4A517;margin-top: 0px;">CONVENCETE DEL MEJOR SERVICIO</h1>
+          <div class="col-sm-7 col-md-6">
+            <h1 class="tit-cms" style="color: #F4A517;margin-top: 0px;">CONVENCETE DEL MEJOR SERVICIO</h1>
             <p class="texto">En ZENS te ofrecemos la mejor forma de promocionar tu negocio a través de nuestro servicios dando un toque de distinción y elegancia.</p> <br><br>
-        <div class="row">
-          <div class="col-md-2">
-            <i style="color: #72103D;" class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
+        <div class="row cont-i">
+          <div class="col-sm-2 col-md-2">
+            <i  style="color: #72103D;" class="fa fa-newspaper-o fa-5x dis-i" aria-hidden="true"></i>
           </div> 
-          <div class="col-md-4">
-            <h3 class="text-left">Medios Impresos</h3>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left txt-i">Medios Impresos</h3>
           </div>
-          <div class="col-md-2">
-            <i style="color: #72103D;" class="fa fa-volume-up fa-5x" aria-hidden="true"></i>
+          <div class="col-sm-2 col-md-2">
+            <i style="color: #72103D;" class="fa fa-volume-up fa-5x dis-i" aria-hidden="true"></i>
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left">Medios Exteriores</h3>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left txt-i">Medios Exteriores</h3>
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-2">
-            <i style="color: #72103D;" class="fa fa-window-restore fa-5x" aria-hidden="true"></i>
+          <div class="col-sm-2 col-md-2">
+            <i style="color: #72103D;" class="fa fa-window-restore fa-5x dis-i" aria-hidden="true"></i>
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left">Carteles</h3>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left txt-i">Carteles</h3>
           </div>
-          <div class="col-md-2">
-            <i style="color: #72103D;" class="fa fa-window-maximize fa-5x" aria-hidden="true"></i>
+          <div class="col-sm-2 col-md-2">
+            <i style="color: #72103D;" class="fa fa-window-maximize fa-5x dis-i" aria-hidden="true"></i>
           </div>
-          <div class="col-md-4 text-center">
-            <h3 class="text-left">Anuncios</h3>
+          <div class="col-sm-4 col-md-4 text-center">
+            <h3 class="text-left txt-i">Anuncios</h3>
           </div>
         </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-5 col-md-6 cont-img">
             <img src="img/uno.jpg" class="img-responsive">
           </div>
         </div>
